@@ -16,7 +16,7 @@
 5. Клонировать свой личный удалённый репозиторий на компьютер;
 6. Добавить файл через интерфейс GitHub. Подтянуть изменения в локальный репозиторий;
 7. Получить историю операций для каждой из веток;
-8. Получить историю операций для каждой из веток;
+8. Посмотреть последние изменения;
 9. Выполнить слияние в ветку master, разрешив конфликт;
 10. Удалить побочную ветку после успешного слияния;
 11. Сделать изменения и зафиксировать их, оставляя комментарии, несколько раз;
@@ -94,3 +94,42 @@
 
 > [!NOTE]
 > Также можно посмотреть [историю двух веток](https://github.com/sunnerfuer/LR6/blob/report/screenshots/showing%20hostory%20of%202.jpg) при помощи команды `gitk --all`.
+
+ Для просмотра последних изменений в ветках использовалась команда `git show` (рисунок 9-10). Таким образом, можно наблюдать основную информацию о коммите (хэш, автора, дату создания, содержание и внесённые изменения)
+
+<p align="center">
+  <img src="https://github.com/sunnerfuer/LR6/blob/report/screenshots/git%20show%20master.jpg">
+</p>
+<p align="center">Рисунок 9 - Последние изменения в ветке master</p></br>
+
+<p align="center">
+  <img src="https://github.com/sunnerfuer/LR6/blob/report/screenshots/git%20show%20branch1.jpg">
+</p>
+<p align="center">Рисунок 10 - Последние изменения в ветке branch1</p></br>
+
+Далее было необходимо произвести слияние в ветку master, данный шаг представлен на рисунке 11.
+
+<p align="center">
+  <img src="https://github.com/sunnerfuer/LR6/blob/report/screenshots/git%20checkout%20master.jpg">
+</p>
+<p align="center">Рисунок 11 - Слияние в ветку master</p></br>
+
+> [!WARNING]
+> При попытке слияния двух файлов с одинаковым названием, но разным содержимым, произойдет конфликт. Для разрешения конфликта необходимо применить команду `notepad mergefile.txt` и внести изменения в конфликтующем содержимом (рисунок 12-13)
+
+<p align="center">
+  <img src="https://github.com/sunnerfuer/LR6/blob/report/screenshots/merge1.jpg">
+</p>
+<p align="center">Рисунок 12 - Конфликтующий файл</p></br>
+
+<p align="center">
+  <img src="https://github.com/sunnerfuer/LR6/blob/report/screenshots/merge2.jpg">
+</p>
+<p align="center">Рисунок 13 - Решение конфликта</p></br>
+
+После произведенных манипуляций необходимо добавить измененный файл с помощью команды `git add mergefile.txt`. Результат представлен на рисунке 14.
+
+<p align="center">
+  <img src="https://github.com/sunnerfuer/LR6/blob/report/screenshots/git%20add%20merge.jpg">
+</p>
+<p align="center">Рисунок 14 - Добавление измененного файла</p></br>
