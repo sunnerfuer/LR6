@@ -34,6 +34,7 @@
 готовый аккаунт представлен на рисунке 1
 
 <p align="center">
-  <img width="400" height="250" src="https://github.com/sunnerfuer/LR6/blob/report/screenshots/profile.jpg">
+  <img src="https://github.com/sunnerfuer/LR6/blob/report/screenshots/profile.jpg">
 </p>
+
 <p style="text-align:center;">Рисунок 1 - Профиль в Git Hub</p>
