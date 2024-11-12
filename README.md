@@ -36,5 +36,4 @@
 <p align="center">
   <img src="https://github.com/sunnerfuer/LR6/blob/report/screenshots/profile.jpg">
 </p>
-
-<p style="text-align:center;">Рисунок 1 - Профиль в Git Hub</p>
+<p align="center">Рисунок 1 - Профиль в Git Hub</p></br>
