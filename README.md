@@ -134,10 +134,43 @@
 </p>
 <p align="center">Рисунок 14 - Добавление измененного файла</p></br>
 
-По завершению отчета необходимо Получить историю операций в форматированном виде (сокращённый хэш + дата + имя автора + комментарий). Добавить её в отчёт и сделать
-финальную фиксацию изменений. Внесенные последние изменения можно наблюдать на рисунке 15.
+После успешного слияния необходимо удалить ветку branch1 (рисунок 15).
 
 <p align="center">
-  <img src="https://github.com/sunnerfuer/LR6/blob/report/screenshots/final%20git%20log.jpg">
+  <img src="https://github.com/sunnerfuer/LR6/blob/report/screenshots/git%20branch%20delete.jpg">
 </p>
-<p align="center">Рисунок 15 - Список последних операций</p></br>
+<p align="center">Рисунок 15 - Удаление ветки branch1</p></br>
+
+Для создания нескольких изменений использовалась команда `echo`, с помощью которой было создано два файла (рисунок 16-17).
+
+<p align="center">
+  <img src="https://github.com/sunnerfuer/LR6/blob/report/screenshots/echo%201.jpg">
+</p>
+<p align="center">Рисунок 16 - Создание первого файла changes</p></br>
+
+<p align="center">
+  <img src="https://github.com/sunnerfuer/LR6/blob/report/screenshots/echo2.jpg">
+</p>
+<p align="center">Рисунок 17 - Создание второго файла changes2</p></br>
+
+> [!NOTE]
+> Для просмотра содержимого файлов удобно использовать команду `cat`
+
+Следующим этапом было необходимо произвести откат коммита. Данный шаг можно наблюдать на рисунке 18.
+
+<p align="center">
+  <img src="https://github.com/sunnerfuer/LR6/blob/report/screenshots/git%20reset.jpg">
+</p>
+<p align="center">Рисунок 18 - Откат коммита</p></br>
+
+> [!NOTE]
+> Флаг `-3` отображает последние 3 коммита в текущей ветке репозитория
+
+Для создания и оформления отчета была создана отдельная ветка (рисунок 19).
+
+<p align="center">
+  <img src="https://github.com/sunnerfuer/LR6/blob/report/screenshots/git%20branch%20report.jpg">
+</p>
+<p align="center">Рисунок 19 - Создания ветки для отчета</p></br>
+
+По завершению отчета необходимо отправить внесенные локальные изменения в сетевое хранилище Git Hub.
