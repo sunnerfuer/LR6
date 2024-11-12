@@ -133,3 +133,11 @@
   <img src="https://github.com/sunnerfuer/LR6/blob/report/screenshots/git%20add%20merge.jpg">
 </p>
 <p align="center">Рисунок 14 - Добавление измененного файла</p></br>
+
+По завершению отчета необходимо Получить историю операций в форматированном виде (сокращённый хэш + дата + имя автора + комментарий). Добавить её в отчёт и сделать
+финальную фиксацию изменений. Внесенные последние изменения можно наблюдать на рисунке 15.
+
+<p align="center">
+  <img src="https://github.com/sunnerfuer/LR6/blob/report/screenshots/final%20git%20log.jpg">
+</p>
+<p align="center">Рисунок 15 - Список последних операций</p></br>
