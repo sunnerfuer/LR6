@@ -31,9 +31,18 @@
 **Ход выполнение**
 
 Аккаунт на GitHub был создан некоторое время назад, поэтому
-готовый аккаунт представлен на рисунке 1
+готовый аккаунт представлен на рисунке 1.
 
 <p align="center">
   <img src="https://github.com/sunnerfuer/LR6/blob/report/screenshots/profile.jpg">
 </p>
 <p align="center">Рисунок 1 - Профиль в Git Hub</p></br>
+
+Следующим этапом стало создание форка репозитория (https://github.com/Kurtyanik/LR6/ ). Таким образом, была создана копия данного репозитория в моём личном профиле. Скриншот созданной копии представлен на рисунке 2.
+
+<p align="center">
+  <img src="https://github.com/sunnerfuer/LR6/blob/report/screenshots/fork.jpg">
+</p>
+<p align="center">Рисунок 2 - Готовый fork репозитория</p></br>
+> [!IMPORTANT]
+> При создании форка необходимо убрать галочку перед согласием копирования исключительно ветки master
