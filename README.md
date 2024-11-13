@@ -175,3 +175,57 @@
 
 Последним этапом было необходимо выполнить получение истории операций в форматированном виде (сокращённый хэш + дата + имя автора + комментарий), что представлено на рисунке 20.
 
+<p align="center">
+  <img src="https://github.com/sunnerfuer/LR6/blob/report/screenshots/format.jpg">
+</p>
+<p align="center">Рисунок 20 - История операций в форматированном виде</p></br>
+
+**Лог команд**
+```
+git config --global user.name "4315 Deryabina Mary Alexeevna"
+git config --global user.email "deryabina.masha.2005@gmail.com"
+git config --global --list 
+git clone https://github.com/sunnerfuer/LR6
+cd LR6
+git pull 
+git log master
+git log branch1
+gitk --all
+git show master
+git show branch1  
+git checkout master
+git merge branch1
+git status
+notepad mergefile.txt
+git add mergefile.txt
+notepad mergefile.txt
+git add mergefile.txt
+git status
+git commit -m "Branches successfully connected (conflict resolved)"
+git branch -d branch1
+git branch   
+echo "Was created the first note" >> changes.txt 
+git add changes.txt  
+cat changes.txt
+git status
+git commit -m "Was created the second note"
+echo "Was created the second note" >> changes2.txt 
+git add changes2.txt  
+cat changes2.txt
+git status
+git commit -m "Was created the second note"
+git reset HEAD~1
+git log -3
+git branch report
+git branch
+git push
+git push origin report
+git log --date=format:'%D' --pretty=format:"%h -> %cd, %cn ( %s )"
+history
+```
+
+**Выводы**
+
+В ходе лабораторной работы был изучен Git, а также получен опыт работы с GitHub и Git API. 
+В процесе выполнения работы был получен практический опыт работы с репозиторием, средой git, с ветками, разрешением их конфликтов, созданием файлов. Был изучен формат Markdown для оформления отчета.
+
